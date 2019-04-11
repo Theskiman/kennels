@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class locationList extends Component {
     render() {
         return (
-           <section> 
+           <React.Fragment> 
             <div>
                 <h3>Student Kennels One</h3>
                 <h4>Nashville North Location</h4>
@@ -14,7 +14,7 @@ export default class locationList extends Component {
                 <h4>Nashville South Location</h4>
                 <h5>999 Cat Alley</h5>
             </div>
-            </section>
+            </React.Fragment>
         );
     }
 }
