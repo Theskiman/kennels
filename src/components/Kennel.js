@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import EmployeeList from "./employee/employeeList"  // Import EmployeeList component
 import LocationList from "./locations/locationList"
-
+import "./Kennel.css"
 
     export default class Kennel extends Component {
 
