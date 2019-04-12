@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class AnimalList extends Component {
     render() {
         return (
-            <article>
+            <article className="content">
                 <h1>Animal List</h1>
                 {
                 this.props.animals.map(animal =>
